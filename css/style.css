@@ -10,6 +10,10 @@
   --background-one: #191e24;
   --background-two: #10171e;
   --font-one-color: #000000;
+  --font-family: "Roboto";
+  --white-color: #ffffff;
+  --button-color: #ed1d27;
+  --border-color: #ec1c25;
 }
 
 .top-header {
@@ -31,8 +35,65 @@
   background-size: cover;
 }
 .sec-one .clip-path {
-  border: 1px solid black;
-  -webkit-clip-path: polygon(0 0, 31% 0, 82% 100%, 0% 100%);
-          clip-path: polygon(0 0, 31% 0, 82% 100%, 0% 100%);
+  -webkit-clip-path: polygon(0 0, 29% 0, 91% 100%, 0% 100%);
+          clip-path: polygon(0 0, 29% 0, 91% 100%, 0% 100%);
   background-color: var(--background-two);
+}
+.sec-one .contents {
+  margin-left: -1rem;
+}
+.sec-one .contents h1 {
+  margin-top: 18rem;
+  font-family: var(--font-family), sans-serif;
+  font-size: 55px;
+  line-height: 60px;
+  font-weight: 700;
+  color: var(--white-color);
+}
+.sec-one .contents p {
+  margin: 2rem 0rem;
+  font-size: 16px;
+  line-height: 27px;
+  font-weight: 400;
+  color: var(--white-color);
+}
+.sec-one .contents button {
+  margin: 1rem 0rem;
+  background-color: var(--button-color);
+  padding: 1rem 2rem;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 17px;
+  color: white;
+  border-radius: 12px;
+  transition: all 0.1s linear;
+  margin-bottom: 5rem;
+}
+.sec-one .contents button:hover {
+  background-color: rgba(237, 29, 39, 0.7);
+}
+
+.sec-two {
+  margin-top: 15rem;
+}
+.sec-two .contents {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+.sec-two .contents h3 {
+  border: 2px solid var(--border-color);
+  padding: 1rem 1rem;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27px;
+  font-style: normal;
+  text-align: center;
+  font-family: var(--font-family), sans-serif;
+}
+.sec-two .contents h3:first-child {
+  margin-left: -0.5rem;
+}
+.sec-two .contents h3:last-child {
+  margin-right: -0.5rem;
 }/*# sourceMappingURL=style.css.map */
