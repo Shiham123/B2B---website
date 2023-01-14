@@ -6,6 +6,9 @@
   outline: none;
 }
 
+body {
+  overflow-x: hidden;
+}
 :root {
   --background-one: #191e24;
   --background-two: #10171e;
@@ -112,3 +115,59 @@
 }
 
 // =====================================
+
+.sec-three {
+  margin: 5rem 0rem;
+  background-color: var(--button-color);
+  height: 35rem;
+
+  .clip-path {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 25% 100%, 0 48%);
+    background-color: var(--background-two);
+
+    .contents {
+      margin: 6rem 14rem;
+
+      h3 {
+        font-family: var(--font-family);
+        font-style: normal;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 43px;
+        color: var(--white-color);
+      }
+
+      ol {
+        font-family: var(--font-family);
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 27px;
+        color: var(--white-color);
+
+        li {
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 27px;
+          color: var(--white-color);
+        }
+      }
+
+      button {
+        background-color: var(--button-color);
+        padding: 1rem 2rem;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 17px;
+        color: white;
+        border-radius: 12px;
+        transition: all 0.1s linear;
+        margin-bottom: 5rem;
+
+        &:hover {
+          background-color: rgb(237, 29, 39, 0.7);
+        }
+      }
+    }
+  }
+}
