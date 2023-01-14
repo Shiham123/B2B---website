@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+}
+
+:root {
+  --background-one: #191e24;
+  --background-two: #10171e;
+  --font-one-color: #000000;
+}
+
+.top-header {
+  background-color: var(--background-one);
+
+  p {
+    font-size: 16px;
+    line-height: 27px;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--font-one-color);
+  }
+}
+
+// ---------------------
+
+.sec-one {
+  width: 100vw;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .clip-path {
+    border: 1px solid black;
+    clip-path: polygon(0 0, 31% 0, 82% 100%, 0% 100%);
+    background-color: var(--background-two);
+  }
+}
