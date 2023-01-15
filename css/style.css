@@ -317,4 +317,26 @@ body {
 }
 .sec-six .btn button:hover {
   background-color: rgba(237, 29, 39, 0.7);
+}
+
+.sec-seven {
+  margin: 5rem 0rem;
+  background-color: var(--button-color);
+  height: 15rem;
+}
+.sec-seven .clip-path {
+  -webkit-clip-path: polygon(81% 0, 100% 30%, 100% 100%, 0 100%, 0 0);
+          clip-path: polygon(81% 0, 100% 30%, 100% 100%, 0 100%, 0 0);
+  background-color: var(--background-two);
+}
+.sec-seven .clip-path h2 {
+  text-align: center;
+  margin: 0 auto;
+  font-style: normal;
+  font-size: 36px;
+  line-height: 43px;
+  color: var(--white-color);
+  font-weight: 600;
+  font-family: var(--font-family);
+  margin: 1rem 0rem;
 }/*# sourceMappingURL=style.css.map */
