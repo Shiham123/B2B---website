@@ -364,15 +364,15 @@ body {
 // ====================================
 
 .sec-seven {
-  margin: 5rem 0rem;
   background-color: var(--button-color);
-  height: 15rem;
+  height: 25rem;
 
   .clip-path {
     clip-path: polygon(81% 0, 100% 30%, 100% 100%, 0 100%, 0 0);
     background-color: var(--background-two);
 
     h2 {
+      padding-top: 10rem;
       text-align: center;
       margin: 0 auto;
       font-style: normal;
@@ -383,5 +383,104 @@ body {
       font-family: var(--font-family);
       margin: 1rem 0rem;
     }
+
+    .contents {
+      margin-left: 2rem;
+
+      .item {
+        width: 350px;
+        height: auto;
+
+        .img {
+          width: 50px;
+          height: 50px;
+          border-radius: 50%;
+          margin: 5rem 0rem;
+
+          img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+          }
+        }
+
+        p {
+          margin: 4rem 0rem;
+          color: white;
+          font-size: 18px;
+          line-height: 29px;
+          font-style: normal;
+          font-weight: 400;
+          font-family: var(--font-family);
+        }
+      }
+    }
   }
 }
+
+// =============================
+
+.sec-eight {
+  margin-top: 35rem;
+
+  .contents {
+    h2 {
+      font-family: var(--font-family);
+      font-weight: 600;
+      font-style: normal;
+      font-size: 36px;
+      line-height: 43px;
+      color: var(--background-two);
+    }
+
+    .item {
+      margin-top: 5rem;
+
+      .sec {
+        margin-left: 10rem;
+
+        h4 {
+          font-family: var(--font-family);
+          font-size: 20px;
+          line-height: 22px;
+          font-style: normal;
+          font-weight: 600;
+          color: var(--background-two);
+        }
+
+        p {
+          padding-top: 1rem;
+          font-family: var(--font-family);
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 27px;
+          color: var(--background-two);
+          opacity: 0.7;
+        }
+      }
+    }
+  }
+
+  .btn {
+    margin-top: 3rem;
+
+    button {
+      background-color: var(--button-color);
+      padding: 1rem 2rem;
+      font-weight: 600;
+      font-style: normal;
+      font-size: 17px;
+      color: white;
+      border-radius: 12px;
+      transition: all 0.1s linear;
+      margin-bottom: 5rem;
+
+      &:hover {
+        background-color: rgb(237, 29, 39, 0.7);
+      }
+    }
+  }
+}
+
+// ======================

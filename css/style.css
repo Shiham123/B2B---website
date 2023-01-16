@@ -320,9 +320,8 @@ body {
 }
 
 .sec-seven {
-  margin: 5rem 0rem;
   background-color: var(--button-color);
-  height: 15rem;
+  height: 25rem;
 }
 .sec-seven .clip-path {
   -webkit-clip-path: polygon(81% 0, 100% 30%, 100% 100%, 0 100%, 0 0);
@@ -330,6 +329,7 @@ body {
   background-color: var(--background-two);
 }
 .sec-seven .clip-path h2 {
+  padding-top: 10rem;
   text-align: center;
   margin: 0 auto;
   font-style: normal;
@@ -339,4 +339,85 @@ body {
   font-weight: 600;
   font-family: var(--font-family);
   margin: 1rem 0rem;
+}
+.sec-seven .clip-path .contents {
+  margin-left: 2rem;
+}
+.sec-seven .clip-path .contents .item {
+  width: 350px;
+  height: auto;
+}
+.sec-seven .clip-path .contents .item .img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: 5rem 0rem;
+}
+.sec-seven .clip-path .contents .item .img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.sec-seven .clip-path .contents .item p {
+  margin: 4rem 0rem;
+  color: white;
+  font-size: 18px;
+  line-height: 29px;
+  font-style: normal;
+  font-weight: 400;
+  font-family: var(--font-family);
+}
+
+.sec-eight {
+  margin-top: 35rem;
+}
+.sec-eight .contents h2 {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-style: normal;
+  font-size: 36px;
+  line-height: 43px;
+  color: var(--background-two);
+}
+.sec-eight .contents .item {
+  margin-top: 5rem;
+}
+.sec-eight .contents .item .sec {
+  margin-left: 10rem;
+}
+.sec-eight .contents .item .sec h4 {
+  font-family: var(--font-family);
+  font-size: 20px;
+  line-height: 22px;
+  font-style: normal;
+  font-weight: 600;
+  color: var(--background-two);
+}
+.sec-eight .contents .item .sec p {
+  padding-top: 1rem;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  color: var(--background-two);
+  opacity: 0.7;
+}
+.sec-eight .btn {
+  margin-top: 3rem;
+}
+.sec-eight .btn button {
+  background-color: var(--button-color);
+  padding: 1rem 2rem;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 17px;
+  color: white;
+  border-radius: 12px;
+  transition: all 0.1s linear;
+  margin-bottom: 5rem;
+}
+.sec-eight .btn button:hover {
+  background-color: rgba(237, 29, 39, 0.7);
 }/*# sourceMappingURL=style.css.map */
