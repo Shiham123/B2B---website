@@ -385,8 +385,6 @@ body {
     }
 
     .contents {
-      margin-left: 2rem;
-
       .item {
         width: 350px;
         height: auto;
@@ -421,7 +419,7 @@ body {
 // =============================
 
 .sec-eight {
-  margin-top: 35rem;
+  margin-top: 45rem;
 
   .contents {
     h2 {
@@ -484,3 +482,54 @@ body {
 }
 
 // ======================
+
+.sec-nine {
+  background-color: var(--background-two);
+  padding: 5rem 0rem;
+
+  .form {
+    background-color: rgb(235, 184, 184);
+    padding: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+
+    h3 {
+      font-family: var(--font-family);
+      font-size: 30px;
+      line-height: 36px;
+      font-style: normal;
+      font-weight: 600;
+      color: var(--background-two);
+    }
+
+    p {
+      font-family: var(--font-family);
+      font-size: 15px;
+      line-height: 24px;
+      font-weight: 400;
+      color: var(--background-two);
+      font-style: normal;
+    }
+
+    input {
+      display: block;
+      padding: 0.5rem 0.5rem;
+      margin: 1rem 0rem;
+      width: 350px;
+
+      &::placeholder {
+        padding: 0.2rem 0.2rem;
+      }
+    }
+
+    button {
+      margin-top: 3rem;
+      padding: 1rem 1.5rem;
+      background-color: var(--button-color);
+      border-radius: 12px;
+    }
+  }
+}

@@ -340,9 +340,6 @@ body {
   font-family: var(--font-family);
   margin: 1rem 0rem;
 }
-.sec-seven .clip-path .contents {
-  margin-left: 2rem;
-}
 .sec-seven .clip-path .contents .item {
   width: 350px;
   height: auto;
@@ -370,7 +367,7 @@ body {
 }
 
 .sec-eight {
-  margin-top: 35rem;
+  margin-top: 45rem;
 }
 .sec-eight .contents h2 {
   font-family: var(--font-family);
@@ -420,4 +417,55 @@ body {
 }
 .sec-eight .btn button:hover {
   background-color: rgba(237, 29, 39, 0.7);
+}
+
+.sec-nine {
+  background-color: var(--background-two);
+  padding: 5rem 0rem;
+}
+.sec-nine .form {
+  background-color: rgb(235, 184, 184);
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+}
+.sec-nine .form h3 {
+  font-family: var(--font-family);
+  font-size: 30px;
+  line-height: 36px;
+  font-style: normal;
+  font-weight: 600;
+  color: var(--background-two);
+}
+.sec-nine .form p {
+  font-family: var(--font-family);
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 400;
+  color: var(--background-two);
+  font-style: normal;
+}
+.sec-nine .form input {
+  display: block;
+  padding: 0.5rem 0.5rem;
+  margin: 1rem 0rem;
+  width: 350px;
+}
+.sec-nine .form input::-moz-placeholder {
+  padding: 0.2rem 0.2rem;
+}
+.sec-nine .form input:-ms-input-placeholder {
+  padding: 0.2rem 0.2rem;
+}
+.sec-nine .form input::placeholder {
+  padding: 0.2rem 0.2rem;
+}
+.sec-nine .form button {
+  margin-top: 3rem;
+  padding: 1rem 1.5rem;
+  background-color: var(--button-color);
+  border-radius: 12px;
 }/*# sourceMappingURL=style.css.map */
